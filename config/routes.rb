@@ -1,6 +1,7 @@
 Vitae::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+match "position" => "position#show"
 resources :developer
 resources :position
   # Sample of regular route:

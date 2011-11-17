@@ -2,13 +2,29 @@
 <html>
 <head>
   <title>Vitae</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+  <%= render  'layouts/stylesheets' %>
 </head>
 <body>
+<div class="container">
+  <div id="header" class="span-23 last">	
+    <nav class="round">
+    
+    </nav>
+  </header>
+  <section>
+  <div class="span-22" id="background"> 
+<div class="span-11 address"> 
+<p class="tight">Sam Walton</p> 
+<p class="tight">7540 Harper Rd</p> 
+<p class="tight">Joelton, TN 37080, near Nashville, TN</p> 
+<p class="tight">615-495-7783 • sam@foofrancine.com</p> 
+</div>
+</div> 
+    <%= yield %>
+  </section>
+</div>
 
-<%= yield %>
+
 
 </body>
 </html>
