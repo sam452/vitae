@@ -1,9 +1,11 @@
 Vitae::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-match "position" => "position#show"
-resources :developer
+# map.connect '/:alpha', :controllers => "position", :action => "show"
+match '/:position', :to => 'position#show'
+# root :to => 'position#show'
 resources :position
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

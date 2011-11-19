@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company: MyString
+  position: MyString
+  objective: MyText
+  grizzard: MyText
+  skill: MyText
+
+two:
+  company: MyString
+  position: MyString
+  objective: MyText
+  grizzard: MyText
+  skill: MyText
