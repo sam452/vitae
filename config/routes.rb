@@ -2,9 +2,9 @@ Vitae::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 # map.connect '/:alpha', :controllers => "position", :action => "show"
-match '/:position', :to => 'position#show'
+match '/:position', :to => 'openings#show'
 # root :to => 'position#show'
-resources :position
+resources :openings
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
