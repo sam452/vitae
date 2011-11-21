@@ -5,7 +5,7 @@ class OpeningsController < ApplicationController
   end
   
   def show
-    @opening = Position.find(params[:position])
+    @opening = Position.find_by_position(params[:position])
     
     respond_to do |format|
       format.html # show.html.erb
