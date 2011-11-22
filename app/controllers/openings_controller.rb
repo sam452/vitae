@@ -9,7 +9,7 @@ class OpeningsController < ApplicationController
     
     respond_to do |format|
       format.html # show.html.erb
-      format.xml { render :xml => @position }
+      format.xml { render :xml => @opening }
     end
   end
   
@@ -18,12 +18,12 @@ class OpeningsController < ApplicationController
     
     respond_to do |format|
       format.html # new.html.erb
-      format.xml { render :xml => @position }
+      format.xml { render :xml => @opening }
     end
   end
   
   def edit
-    @opening = Position.find(params[:position])
+    @opening = Position.find_by_position(params[:position])
   end
 
 end
