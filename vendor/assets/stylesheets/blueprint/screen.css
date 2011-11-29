@@ -275,3 +275,8 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
   /*background-color: #68FF00;*/
   
 }
+
+/*tight {margin-bottom: 0.1em;}*/
+#address .tight p {
+  {margin:0 0 1.5em;}
+}

@@ -14,12 +14,16 @@ class OpeningsController < ApplicationController
   end
   
   def new
-    @opening = Position.new
+    @opening = Position.new(params[:position])
     
     respond_to do |format|
       format.html # new.html.erb
       format.xml { render :xml => @opening }
     end
+  end
+  
+  def create
+    @opening = Position.new(params[:position])
   end
   
   def edit

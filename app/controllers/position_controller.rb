@@ -5,7 +5,7 @@ class PositionController < ApplicationController
   end
   
   def show
-    @alpha = Position.find(params[:id])
+    @alpha = Position.find_by_position(params[:position])
     
     respond_to do |format|
       format.html # show.html.erb

@@ -5,6 +5,15 @@ Vitae::Application.routes.draw do
 match '/:position', :to => 'openings#show'
 # root :to => 'position#show'
 resources :openings
+resources :position
+
+  get "positions/new"
+
+  get "positions/create"
+
+  get "positions/show"
+
+  get "positions/edit"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
