@@ -5,7 +5,7 @@ class OpeningsController < ApplicationController
   end
   
   def show
-    @opening = Position.find_by_position(params[:position])
+    @opening = Position.find_by_pid(params[:pid])
     
     respond_to do |format|
       format.html # show.html.erb
@@ -23,11 +23,20 @@ class OpeningsController < ApplicationController
   end
   
   def create
-    @opening = Position.new(params[:position])
+    @position = Position.new(params[:pid])
+    if @user.save
+      #
+    else
+      render 'new'
+    end
   end
   
   def edit
-    @opening = Position.find_by_position(params[:position])
+    @position = Position.find_by_pid(params[:pid])
+  end
+  
+  def show_report
+    @position = Position.find_by_pid(params[:pid])
   end
 
 end

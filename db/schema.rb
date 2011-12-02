@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20111020002448) do
     t.text     "objective"
     t.text     "grizzard"
     t.text     "skill"
+    t.string   "pid"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

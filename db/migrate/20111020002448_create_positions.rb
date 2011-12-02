@@ -6,6 +6,7 @@ class CreatePositions < ActiveRecord::Migration
       t.text :objective
       t.text :grizzard
       t.text :skill
+      t.string :pid
 
       t.timestamps
     end

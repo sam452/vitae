@@ -26,7 +26,7 @@ a img {border:none;}
 
 /* typography.css */
 html {font-size:100.01%;}
-body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+body {font-size:75%;color:#222;background:none repeat scroll 0 0 #681400;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
 h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
 h2 {font-size:2em;margin-bottom:0.75em;}
@@ -35,7 +35,7 @@ h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
 h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
 h6 {font-size:1em;font-weight:bold;}
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
-p {margin:0 0 1.5em;}
+p {margin:0 0 1.0em;}
 .left {float:left !important;}
 p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
 .right {float:right !important;}
@@ -104,7 +104,7 @@ form.inline p {margin-bottom:0;}
 .info a {color:#205791;}
 
 /* grid.css */
-.container {width:950px;margin:8px; background-color : #681400;}
+.container {width:710px;margin:12px; background-color : #681400;}
 .showgrid {background:url(src/grid.png);}
 .column, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24 {float:left;margin-right:10px;}
 .last {margin-right:0;}
@@ -264,11 +264,17 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
 
-#background, #address, #objective, #recent, #experience, #skills, #education, #references {
-  border: 1px solid red;
+#background, #address, #objective, #recent, #experience, #skills, #education, #references, #space {
+  border: 1px solid blue;
   background-color: #FFE1AE;
   padding: 5px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
+}
+.bug {
+  background-color: #D9E021;
+}
+.space {
+  background-color: #FFE1AE;
 }
 
 #background {
@@ -276,7 +282,15 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
   
 }
 
-/*tight {margin-bottom: 0.1em;}*/
-#address .tight p {
-  {margin:0 0 1.5em;}
+.marge {
+  margin-left:-50px;
 }
+.tight {
+  margin:0 0 0.5em;
+}
+.head {font-weight: bolder;}
+.centre { text-align: center; }
+.subhed {font-weight: bolder;}
+.base {font-size:95%;}
+.leftedge {margin-left: 5px;}
+/*table {padding:15px;}*/

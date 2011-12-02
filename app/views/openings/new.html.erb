@@ -15,7 +15,11 @@
     <%= f.label :grizzard, "Relevant Grizzard experience" %><br />
     <%= f.text_field :grizzard %>
   </div>
-  <div class="actions">
+   <div class="field">
+    <%= f.label :pid, "Unique ID" %><br />
+    <%= f.text_field :pid %>
+  </div>
+ <div class="actions">
     <%= f.submit "Check in" %>
   </div>
 <% end %>
