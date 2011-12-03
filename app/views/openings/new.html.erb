@@ -1,25 +1,31 @@
+<div class="span-11 last" id="background"> 
 <%= form_for (@opening)  do |f| %>
   <div class="field">
     <%= f.label :company, "Company applied for." %><br />
     <%= f.text_field :company %>
   </div>
   <div class="field">
-    <%= f.label :position, "Unique position identifier" %><br />
+    <%= f.label :position, "Proper name  of position" %><br />
     <%= f.text_field :position %>
   </div>
   <div class="field">
     <%= f.label :objective, "Objective" %><br />
     <%= f.text_field :objective %>
   </div>
-  <div class="field">
-    <%= f.label :grizzard, "Relevant Grizzard experience" %><br />
-    <%= f.text_field :grizzard %>
-  </div>
-   <div class="field">
+    <div class="field">
     <%= f.label :pid, "Unique ID" %><br />
     <%= f.text_field :pid %>
   </div>
+ <div class="field">
+    <%= f.label :grizzard, "Relevant Grizzard experience" %><br />
+    <%= f.text_area :grizzard %>
+  </div>
+ <div class="field">
+    <%= f.label :skill, "Relevant skills to highlight" %><br />
+    <%= f.text_area :skill %>
+  </div>
  <div class="actions">
-    <%= f.submit "Check in" %>
+    <%= f.submit  %>
   </div>
 <% end %>
+</div>

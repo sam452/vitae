@@ -14,7 +14,7 @@ class OpeningsController < ApplicationController
   end
   
   def new
-    @opening = Position.new(params[:position])
+    @opening = Position.new
     
     respond_to do |format|
       format.html # new.html.erb
@@ -23,16 +23,30 @@ class OpeningsController < ApplicationController
   end
   
   def create
-    @position = Position.new(params[:pid])
-    if @user.save
+    @position = Position.new(params[:position])
+    if @position.save
       #
     else
       render 'new'
     end
   end
   
+  def create
+    @opening = Position.new(params[:position])
+
+    respond_to do |format|
+      if @opening.save
+        format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
+        format.xml  { render :xml => @opening, :status => :created, :location => @opening }
+      else
+        format.html { render :action => "new" }
+        format.xml  { render :xml => @opening.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+  
   def edit
-    @position = Position.find_by_pid(params[:pid])
+    @position = Position.find(params[:pid])
   end
   
   def show_report
