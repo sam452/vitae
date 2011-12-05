@@ -1,0 +1,13 @@
+<div class="span-11 last" id="background"> 
+<%= form_for (@chair)  do |f| %>
+  <div class="field">
+    <%= f.label :name, "Company applied for." %><br />
+    <%= f.text_field :name %>
+  </div>
+ <div class="actions">
+    <%= f.submit  %>
+  </div>
+<% end %>
+</div>
+<%= link_to 'Back', chairs_path %>
+

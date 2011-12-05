@@ -1,0 +1,8 @@
+xml.instruct!
+xml.show_report_result do
+	xml.openings do
+		@opening.each do |customer|
+			xml << customer.to_xml(:dasherize=>false,:skip_instruct=>true,:only=>[:id,:company,:position, :objective, :grizzard, :skill],:root=>"opening")
+		end
+	end
+end

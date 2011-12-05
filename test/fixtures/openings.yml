@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company: MyString
+  position: MyString
+  objective: MyString
+  grizzard: MyText
+  skill: MyText
+  pid: MyString
+
+two:
+  company: MyString
+  position: MyString
+  objective: MyString
+  grizzard: MyText
+  skill: MyText
+  pid: MyString
