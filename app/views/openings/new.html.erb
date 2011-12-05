@@ -1,4 +1,16 @@
 <div class="span-11 last" id="background"> 
+  
+  <% if @opening.errors.any? %>
+    <div class="alert-message block-message error">
+      <p><strong>You got an error!</strong></p>
+      <ul>
+        <% @opening.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>    
+    </div>
+  <% end %>
+  
 <%= form_for (@opening)  do |f| %>
   <div class="field">
     <%= f.label :company, "Company applied for." %><br />
