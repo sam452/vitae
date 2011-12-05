@@ -5,16 +5,17 @@ class OpeningsController < ApplicationController
   end
   
   def show
-    @opening = Position.find_by_pid(params[:pid])
+    @opening = Opening.find_by_pid(params[:pid])
     
     respond_to do |format|
       format.html # show.html.erb
       format.xml { render :xml => @opening }
+      format.json { render :json => @opening }
     end
   end
   
   def new
-    @opening = Position.new
+    @opening = Opening.new
     
     respond_to do |format|
       format.html # new.html.erb
@@ -23,7 +24,7 @@ class OpeningsController < ApplicationController
   end
   
   def create
-    @position = Position.new(params[:position])
+    @position = Opening.new(params[:opening])
     if @position.save
       #
     else
@@ -32,7 +33,7 @@ class OpeningsController < ApplicationController
   end
   
   def create
-    @opening = Position.new(params[:position])
+    @opening = Opening.new(params[:position])
 
     respond_to do |format|
       if @opening.save
@@ -46,11 +47,11 @@ class OpeningsController < ApplicationController
   end
   
   def edit
-    @position = Position.find(params[:pid])
+    @opening = Opening.find(params[:pid])
   end
   
   def show_report
-    @position = Position.find_by_pid(params[:pid])
+    @opening = Opening.find_by_pid(params[:pid])
   end
 
 end

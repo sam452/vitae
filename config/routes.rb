@@ -1,4 +1,6 @@
 Vitae::Application.routes.draw do
+  resources :chairs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 # map.connect '/:alpha', :controllers => "position", :action => "show"
