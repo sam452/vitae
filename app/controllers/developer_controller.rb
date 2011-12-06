@@ -1,2 +1,0 @@
-class DeveloperController < ApplicationController
-end

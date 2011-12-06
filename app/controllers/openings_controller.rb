@@ -1,11 +1,13 @@
 class OpeningsController < ApplicationController
 
   def index
-    @opening = params[:position]
+    @opening = Opening.all
+    #@opening = params[:pid]
+    #@opening = Opening.find(:all)
   end
   
   def show
-    @opening = Opening.find_by_pid(params[:pid])
+    @opening = Opening.find_by_pid(params[:id])
     
     respond_to do |format|
       format.html # show.html.erb
@@ -24,20 +26,12 @@ class OpeningsController < ApplicationController
   end
   
   def create
-    @position = Opening.new(params[:opening])
-    if @position.save
-      #
-    else
-      render 'new'
-    end
-  end
-  
-  def create
-    @opening = Opening.new(params[:position])
+    @opening = Opening.new(params[:opening])
 
     respond_to do |format|
       if @opening.save
-        format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
+        #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
+        format.html { redirect_to(opening_path(@opening.pid), :notice => 'Opening was successfully created.') }
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
       else
         format.html { render :action => "new" }
@@ -47,11 +41,11 @@ class OpeningsController < ApplicationController
   end
   
   def edit
-    @opening = Opening.find(params[:pid])
+    @opening = Opening.find_by_pid(params[:id])
   end
   
   def show_report
-    @opening = Opening.find_by_pid(params[:pid])
+    @opening = Opening.find_by_pid(params[:id])
   end
 
 end
