@@ -30,8 +30,9 @@ class OpeningsController < ApplicationController
 
     respond_to do |format|
       if @opening.save
+        #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
         #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
-        format.html { redirect_to(opening_path(@opening.pid), :notice => 'Opening was successfully created.') }
+        format.html { redirect_to opening_path(@opening.pid), :notice => 'Opening was successfully created.' }
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
       else
         format.html { render :action => "new" }

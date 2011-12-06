@@ -1,5 +1,4 @@
 Vitae::Application.routes.draw do
-  resources :chairs
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -7,8 +6,10 @@ Vitae::Application.routes.draw do
 # match '/:pid', :to => 'openings#show'
 # match '/:pid', :to => 'positions#show'
 # root :to => 'position#show'
-resources :openings
-resources :positions
+resources :openings, except: [:index, :show]
+match '/:pid', :to => 'openings#show', :as => :opening
+#resources :positions
+#root :to => 'openings#show'
 
 
   # Sample of regular route:
@@ -64,5 +65,4 @@ resources :positions
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
-  match '/:pid', :to => 'openings#show'
 end
