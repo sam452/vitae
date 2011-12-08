@@ -6,8 +6,9 @@ Vitae::Application.routes.draw do
 # match '/:pid', :to => 'openings#show'
 # match '/:pid', :to => 'positions#show'
 # root :to => 'position#show'
-resources :openings, except: [:index, :show]
+resources :openings, except: [:index, :show, :edit]
 match '/:pid', :to => 'openings#show', :as => :opening
+match '/openings/edit/:pid', :to => 'openings#edit', :as => :edit_opening
 #resources :positions
 #root :to => 'openings#show'
 

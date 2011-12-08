@@ -7,13 +7,18 @@ class OpeningsController < ApplicationController
   end
   
   def show
-    @opening = Opening.find_by_pid(params[:id])
+    @opening = Opening.find_by_pid(params[:pid])
     
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml { render :xml => @opening }
-      format.json { render :json => @opening }
-    end
+    #if @opening?
+      respond_to do |format|
+        format.html # show.html.erb
+        format.xml { render :xml => @opening }
+        format.json { render :json => @opening }
+      end
+    # else
+     #  render :template => "openings/error"
+     
+   # end
   end
   
   def new
@@ -42,11 +47,28 @@ class OpeningsController < ApplicationController
   end
   
   def edit
-    @opening = Opening.find_by_pid(params[:id])
+    @opening = Opening.find_by_pid(params[:pid])
   end
   
+
+  def update
+    @opening = Opening.find(params[:opening])
+
+    respond_to do |format|
+      if @opening.update_attributes(params[:id])
+        #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
+        #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
+        format.html { redirect_to edit_opening_path(@opening.pid), :notice => 'Opening was updated.' }
+        format.xml  { render :xml => @opening, :status => :created, :location => @opening }
+      else
+        format.html { render :action => "/openings/edit/:pid" }
+        format.xml  { render :xml => @opening.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+ # /openings/:id
   def show_report
-    @opening = Opening.find_by_pid(params[:id])
+    @opening = Opening.find_by_pid(params[:pid])
   end
 
 end
