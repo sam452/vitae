@@ -1,13 +1,13 @@
 class OpeningsController < ApplicationController
 
   def index
-    @opening = Opening.all
+    #@opening = Opening.all
     #@opening = params[:pid]
-    #@opening = Opening.find(:all)
+    @opening = Opening.find(:all)
   end
   
   def show
-    @opening = Opening.find_by_pid(params[:pid])
+    @opening = Opening.find(params[:id])
     
     #if @opening?
       respond_to do |format|
@@ -36,30 +36,32 @@ class OpeningsController < ApplicationController
     respond_to do |format|
       if @opening.save
         #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
-        #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
-        format.html { redirect_to opening_path(@opening.pid), :notice => 'Opening was successfully created.' }
+        format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
+        #format.html { redirect_to opening_path(@opening.id), :notice => 'Opening was successfully created.' }
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
-      else
+        format.json  { render json: @opening, status: :created, location: @opening }
+     else
         format.html { render :action => "new" }
         format.xml  { render :xml => @opening.errors, :status => :unprocessable_entity }
+        format.json { render json: @opening.errors, status: :unprocessable_entity }
       end
     end
   end
   
   def edit
-    @opening = Opening.find_by_pid(params[:pid])
+    @opening = Opening.find(params[:id])
   end
   
 
   def update
     #@opening = Opening.find(params[:opening]) because form_for is pulling convention.
     @opening = Opening.find(params[:id])
-@debugger
+#debugger
     respond_to do |format|
       if @opening.update_attributes(params[:opening]) # not :id
         #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
         #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
-        format.html { redirect_to opening_path(@opening.pid), :notice => 'Opening was updated.' }
+        format.html { redirect_to opening_path(@opening.id), :notice => 'Opening was updated.' }
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
       else
         format.html { render :action => "/openings/edit/:pid" }
@@ -69,7 +71,7 @@ class OpeningsController < ApplicationController
   end
  # /openings/:id
   def show_report
-    @opening = Opening.find_by_pid(params[:pid])
+    @opening = Opening.find_by_pid(params[:id])
   end
 
 end

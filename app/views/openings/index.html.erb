@@ -7,9 +7,10 @@
     <th></th>
   </tr>
 
-<% @openings.each do |opening| %>
+<% @opening.each do |opening| %>
   <tr>
     <td><%= link_to 'Show', opening %></td>
+    <td><%= opening.pid %></td>
     <td><%= link_to 'Edit', edit_opening_path(opening) %></td>
     <td><%= link_to 'Destroy', opening, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
@@ -18,4 +19,4 @@
 
 <br />
 
-<%= link_to 'New Chair', new_openings_path %>
+<%= link_to 'New Chair', new_opening_path %>
