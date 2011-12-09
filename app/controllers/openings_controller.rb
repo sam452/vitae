@@ -52,13 +52,14 @@ class OpeningsController < ApplicationController
   
 
   def update
-    @opening = Opening.find(params[:opening])
-
+    #@opening = Opening.find(params[:opening]) because form_for is pulling convention.
+    @opening = Opening.find(params[:id])
+@debugger
     respond_to do |format|
-      if @opening.update_attributes(params[:id])
+      if @opening.update_attributes(params[:opening]) # not :id
         #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
         #format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
-        format.html { redirect_to edit_opening_path(@opening.pid), :notice => 'Opening was updated.' }
+        format.html { redirect_to opening_path(@opening.pid), :notice => 'Opening was updated.' }
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
       else
         format.html { render :action => "/openings/edit/:pid" }
