@@ -265,7 +265,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clear {clear:both;}
 
 #background, #address, #objective, #recent, #experience, #skills, #education, #references, #space {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   background-color: #FFE1AE;
   padding: 5px;
   margin-bottom: 0px;

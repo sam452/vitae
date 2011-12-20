@@ -6,6 +6,12 @@ class OpeningsController < ApplicationController
     @opening = Opening.find(:all)
   end
   
+  def admin
+    #@opening = Opening.all
+    #@opening = params[:pid]
+    @opening = Opening.find(:all)
+  end
+  
   def show
     @opening = Opening.find(params[:id])
     
@@ -71,7 +77,7 @@ class OpeningsController < ApplicationController
   end
  # /openings/:id
   def show_report
-    @opening = Opening.find_by_pid(params[:id])
+    @opening=Opening.find(:all)
   end
 
 end

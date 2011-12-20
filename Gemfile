@@ -22,7 +22,7 @@ gem 'json'
 
 gem "heroku", "~> 2.14.0"	
 
-gem "friendly_id", "~> 3.3.0.1"
+gem "friendly_id", "~> 3.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -37,11 +37,11 @@ gem 'jquery-rails'
 # Use unicorn as the web server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
 
 # To use debugger
 #gem 'ruby-debug'
 #gem 'ruby-debug' ,:platform => :ruby_18 
-gem 'ruby-debug19',:platform => :ruby_19
+#gem 'ruby-debug19',:platform => :ruby_19
 
+gem "passenger", "~> 3.0.11"
+gem "capistrano", "~> 2.9.0"
