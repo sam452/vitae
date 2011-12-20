@@ -2,6 +2,7 @@ Vitae::Application.routes.draw do
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
+<<<<<<< HEAD
 # map.connect '/:alpha', :controllers => "position", :action => "show"
 # match '/:pid', :to => 'openings#show'
 # match '/:pid', :to => 'positions#show'
@@ -14,6 +15,14 @@ resources :openings
 #match '/:id', :to => 'openings#show', :as => :opening
 #match '/openings/edit/:pid', :to => 'openings#edit', :as => :edit_opening
 #resources :positions
+=======
+  # map.connect '/:alpha', :controllers => "position", :action => "show"
+  
+  # match '/:pid', :to => 'positions#show'
+  # root :to => 'position#show'
+  resources :openings
+  resources :positions
+>>>>>>> 3be2226e47370871c730b2ba1e1bc580801cda2c
 
 
   # Sample of regular route:
@@ -69,4 +78,6 @@ resources :openings
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
+  
+  match '/:pid', :to => 'openings#show'
 end

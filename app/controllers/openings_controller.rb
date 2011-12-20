@@ -13,7 +13,11 @@ class OpeningsController < ApplicationController
   end
   
   def show
+<<<<<<< HEAD
     @opening = Opening.find(params[:id])
+=======
+    @opening = Opening.find_by_pid(params[:id])
+>>>>>>> 3be2226e47370871c730b2ba1e1bc580801cda2c
     
     #if @opening?
       respond_to do |format|
@@ -38,12 +42,18 @@ class OpeningsController < ApplicationController
   
   def create
     @opening = Opening.new(params[:opening])
+<<<<<<< HEAD
 
     respond_to do |format|
       if @opening.save
         #redirect_to("/#{@opening.pid}", :notice => 'Opening was created.')
         format.html { redirect_to(@opening, :notice => 'Opening was successfully created.') }
         #format.html { redirect_to opening_path(@opening.id), :notice => 'Opening was successfully created.' }
+=======
+    respond_to do |format|
+      if @opening.save
+        format.html { redirect_to(opening_path(@opening.pid), :notice => 'Opening was successfully created.') }
+>>>>>>> 3be2226e47370871c730b2ba1e1bc580801cda2c
         format.xml  { render :xml => @opening, :status => :created, :location => @opening }
         format.json  { render json: @opening, status: :created, location: @opening }
      else
