@@ -5,7 +5,7 @@
 	<key>EmbeddedEditorHidden:sam</key>
 	<false/>
 	<key>ExpandedEditorWidth:sam:displays([(0, 0), (1440, 900)]:[(1440, 132), (1024, 768)])</key>
-	<integer>649</integer>
+	<integer>646</integer>
 	<key>ExpandedItems:sam</key>
 	<array>
 		<string>87B3D2B1-395C-434B-A1FE-EB49EC0E3409</string>
@@ -398,21 +398,140 @@
 			<key>AliasData</key>
 			<data>
 			AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAAhxcYNZWRpdC5odG1sLmVyYgAAAAAAAAAAAAAAAAAA
+			eUHISCsAAAAhxcYNc2hvdy5odG1sLmVyYgAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
-			M8sVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
+			NssVO2tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
 			ZW5pbmdzABAACAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYA
 			A8ZfAAPGTQADxdUAA67cAAMi8AACddUAAgA7U29sYXI6VXNlcnM6
-			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOmVkaXQu
-			aHRtbC5lcmIAAA4AHAANAGUAZABpAHQALgBoAHQAbQBsAC4AZQBy
+			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOnNob3cu
+			aHRtbC5lcmIAAA4AHAANAHMAaABvAHcALgBoAHQAbQBsAC4AZQBy
 			AGIADwAMAAUAUwBvAGwAYQByABIANVVzZXJzL3NhbS9hcHBzL3Zp
-			dGFlL2FwcC92aWV3cy9vcGVuaW5ncy9lZGl0Lmh0bWwuZXJiAAAT
+			dGFlL2FwcC92aWV3cy9vcGVuaW5ncy9zaG93Lmh0bWwuZXJiAAAT
 			AAEvAAAVAAIACv//AAA=
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/edit.html.erb</string>
+			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/show.html.erb</string>
 			<key>RelativePath</key>
-			<string>./app/views/openings/edit.html.erb</string>
+			<string>./app/views/openings/show.html.erb</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGOAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAAhxcYMbmV3Lmh0bWwuZXJiAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6p
+			78sWF7tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
+			ZW5pbmdzABAACAAAyXmWKAAAABEACAAAyxZsGwAAAAEAHAAhxcYA
+			A8ZfAAPGTQADxdUAA67cAAMi8AACddUAAgA6U29sYXI6VXNlcnM6
+			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOm5ldy5o
+			dG1sLmVyYgAOABoADABuAGUAdwAuAGgAdABtAGwALgBlAHIAYgAP
+			AAwABQBTAG8AbABhAHIAEgA0VXNlcnMvc2FtL2FwcHMvdml0YWUv
+			YXBwL3ZpZXdzL29wZW5pbmdzL25ldy5odG1sLmVyYgATAAEvAAAV
+			AAIACv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/new.html.erb</string>
+			<key>RelativePath</key>
+			<string>./app/views/openings/new.html.erb</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAHGAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAAhH80OdHlwb2dyYXBoeS5jc3MAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEf
+			1MrsZvRURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA3Ny
+			YwAAEAAIAADJeZYoAAAAEQAIAADK7LtUAAAAAQAkACEfzQAhH64A
+			A8XaAAPF2QADxdYAA8XVAAOu3AADIvAAAnXVAAIAUVNvbGFyOlVz
+			ZXJzOnNhbTphcHBzOnZpdGFlOnZlbmRvcjphc3NldHM6c3R5bGVz
+			aGVldHM6Ymx1ZXByaW50OnNyYzp0eXBvZ3JhcGh5LmNzcwAADgAe
+			AA4AdAB5AHAAbwBnAHIAYQBwAGgAeQAuAGMAcwBzAA8ADAAFAFMA
+			bwBsAGEAcgASAEtVc2Vycy9zYW0vYXBwcy92aXRhZS92ZW5kb3Iv
+			YXNzZXRzL3N0eWxlc2hlZXRzL2JsdWVwcmludC9zcmMvdHlwb2dy
+			YXBoeS5jc3MAABMAAS8AABUAAgAK//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/vendor/assets/stylesheets/blueprint/src/typography.css</string>
+			<key>RelativePath</key>
+			<string>./vendor/assets/stylesheets/blueprint/src/typography.css</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAFsAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAADxnUMZGF0YWJhc2UueW1sAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6T
+			KcsVO2tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
+			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsVj8sAAAABABQAA8Z1AAPF
+			1QADrtwAAyLwAAJ11QACAC5Tb2xhcjpVc2VyczpzYW06YXBwczp2
+			aXRhZTpjb25maWc6ZGF0YWJhc2UueW1sAA4AGgAMAGQAYQB0AGEA
+			YgBhAHMAZQAuAHkAbQBsAA8ADAAFAFMAbwBsAGEAcgASAChVc2Vy
+			cy9zYW0vYXBwcy92aXRhZS9jb25maWcvZGF0YWJhc2UueW1sABMA
+			AS8AABUAAgAK//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/config/database.yml</string>
+			<key>RelativePath</key>
+			<string>./config/database.yml</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAF0AAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAADxnUOZW52aXJvbm1lbnQucmIAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
+			PMsVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
+			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsVj8sAAAABABQAA8Z1AAPF
+			1QADrtwAAyLwAAJ11QACADBTb2xhcjpVc2VyczpzYW06YXBwczp2
+			aXRhZTpjb25maWc6ZW52aXJvbm1lbnQucmIADgAeAA4AZQBuAHYA
+			aQByAG8AbgBtAGUAbgB0AC4AcgBiAA8ADAAFAFMAbwBsAGEAcgAS
+			ACpVc2Vycy9zYW0vYXBwcy92aXRhZS9jb25maWcvZW52aXJvbm1l
+			bnQucmIAEwABLwAAFQACAAr//wAA
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/config/environment.rb</string>
+			<key>RelativePath</key>
+			<string>./config/environment.rb</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAADxn8NcHJvZHVjdGlvbi5yYgAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6R
+			dMsWF7tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADGVu
+			dmlyb25tZW50cwAQAAgAAMl5ligAAAARAAgAAMsWbBsAAAABABgA
+			A8Z/AAPGdQADxdUAA67cAAMi8AACddUAAgA8U29sYXI6VXNlcnM6
+			c2FtOmFwcHM6dml0YWU6Y29uZmlnOmVudmlyb25tZW50czpwcm9k
+			dWN0aW9uLnJiAA4AHAANAHAAcgBvAGQAdQBjAHQAaQBvAG4ALgBy
+			AGIADwAMAAUAUwBvAGwAYQByABIANlVzZXJzL3NhbS9hcHBzL3Zp
+			dGFlL2NvbmZpZy9lbnZpcm9ubWVudHMvcHJvZHVjdGlvbi5yYgAT
+			AAEvAAAVAAIACv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/config/environments/production.rb</string>
+			<key>RelativePath</key>
+			<string>./config/environments/production.rb</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -437,6 +556,78 @@
 			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/index.html.erb</string>
 			<key>RelativePath</key>
 			<string>./app/views/openings/index.html.erb</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAFiAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAADxnUJcm91dGVzLnJiAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD52
+			aMsWF7tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
+			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsWbBsAAAABABQAA8Z1AAPF
+			1QADrtwAAyLwAAJ11QACACtTb2xhcjpVc2VyczpzYW06YXBwczp2
+			aXRhZTpjb25maWc6cm91dGVzLnJiAAAOABQACQByAG8AdQB0AGUA
+			cwAuAHIAYgAPAAwABQBTAG8AbABhAHIAEgAlVXNlcnMvc2FtL2Fw
+			cHMvdml0YWUvY29uZmlnL3JvdXRlcy5yYgAAEwABLwAAFQACAAr/
+			/wAA
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/config/routes.rb</string>
+			<key>RelativePath</key>
+			<string>./config/routes.rb</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAHKAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAAhH5gOb2xkIHNjcmVlbi5jc3MAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
+			IssVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAD3Vu
+			dGl0bGVkIGZvbGRlcgAAEAAIAADJeZYoAAAAEQAIAADLFY/LAAAA
+			AQAgACEfmAADxlYAA8ZRAAPGTQADxdUAA67cAAMi8AACddUAAgBQ
+			U29sYXI6VXNlcnM6c2FtOmFwcHM6dml0YWU6YXBwOmFzc2V0czpz
+			dHlsZXNoZWV0czp1bnRpdGxlZCBmb2xkZXI6b2xkIHNjcmVlbi5j
+			c3MADgAeAA4AbwBsAGQAIABzAGMAcgBlAGUAbgAuAGMAcwBzAA8A
+			DAAFAFMAbwBsAGEAcgASAEpVc2Vycy9zYW0vYXBwcy92aXRhZS9h
+			cHAvYXNzZXRzL3N0eWxlc2hlZXRzL3VudGl0bGVkIGZvbGRlci9v
+			bGQgc2NyZWVuLmNzcwATAAEvAAAVAAIACv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/app/assets/stylesheets/untitled%20folder/old%20screen.css</string>
+			<key>RelativePath</key>
+			<string>./app/assets/stylesheets/untitled folder/old screen.css</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
+			eUHISCsAAAAhxcYNZWRpdC5odG1sLmVyYgAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
+			M8sVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
+			ZW5pbmdzABAACAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYA
+			A8ZfAAPGTQADxdUAA67cAAMi8AACddUAAgA7U29sYXI6VXNlcnM6
+			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOmVkaXQu
+			aHRtbC5lcmIAAA4AHAANAGUAZABpAHQALgBoAHQAbQBsAC4AZQBy
+			AGIADwAMAAUAUwBvAGwAYQByABIANVVzZXJzL3NhbS9hcHBzL3Zp
+			dGFlL2FwcC92aWV3cy9vcGVuaW5ncy9lZGl0Lmh0bWwuZXJiAAAT
+			AAEvAAAVAAIACv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/edit.html.erb</string>
+			<key>RelativePath</key>
+			<string>./app/views/openings/edit.html.erb</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -521,7 +712,7 @@
 			AAAAAAFuAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
 			eUHISCsAAAADxkgOcHJvZHVjdGlvbi5sb2cAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUu
-			s8r6SpoAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2xv
+			s8r6SppURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2xv
 			ZwAAEAAIAADJeZYoAAAAEQAIAADK+p76AAAAAQAUAAPGSAADxdUA
 			A67cAAMi8AACddUAAgAtU29sYXI6VXNlcnM6c2FtOmFwcHM6dml0
 			YWU6bG9nOnByb2R1Y3Rpb24ubG9nAAAOAB4ADgBwAHIAbwBkAHUA
@@ -590,30 +781,6 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAADxn8NcHJvZHVjdGlvbi5yYgAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6B
-			scsWF7tURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADGVu
-			dmlyb25tZW50cwAQAAgAAMl5ligAAAARAAgAAMsWbBsAAAABABgA
-			A8Z/AAPGdQADxdUAA67cAAMi8AACddUAAgA8U29sYXI6VXNlcnM6
-			c2FtOmFwcHM6dml0YWU6Y29uZmlnOmVudmlyb25tZW50czpwcm9k
-			dWN0aW9uLnJiAA4AHAANAHAAcgBvAGQAdQBjAHQAaQBvAG4ALgBy
-			AGIADwAMAAUAUwBvAGwAYQByABIANlVzZXJzL3NhbS9hcHBzL3Zp
-			dGFlL2NvbmZpZy9lbnZpcm9ubWVudHMvcHJvZHVjdGlvbi5yYgAT
-			AAEvAAAVAAIACv//AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/config/environments/production.rb</string>
-			<key>RelativePath</key>
-			<string>./config/environments/production.rb</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
 			AAAAAAFGAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
 			eUHISCsAAAADxdUHR2VtZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD52
@@ -628,53 +795,6 @@
 			<string>file://localhost/Users/sam/apps/vitae/Gemfile</string>
 			<key>RelativePath</key>
 			<string>./Gemfile</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAFiAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAADxnUJcm91dGVzLnJiAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD52
-			aMsWF7sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
-			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsWbBsAAAABABQAA8Z1AAPF
-			1QADrtwAAyLwAAJ11QACACtTb2xhcjpVc2VyczpzYW06YXBwczp2
-			aXRhZTpjb25maWc6cm91dGVzLnJiAAAOABQACQByAG8AdQB0AGUA
-			cwAuAHIAYgAPAAwABQBTAG8AbABhAHIAEgAlVXNlcnMvc2FtL2Fw
-			cHMvdml0YWUvY29uZmlnL3JvdXRlcy5yYgAAEwABLwAAFQACAAr/
-			/wAA
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/config/routes.rb</string>
-			<key>RelativePath</key>
-			<string>./config/routes.rb</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAAhxcYNc2hvdy5odG1sLmVyYgAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
-			NssVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
-			ZW5pbmdzABAACAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYA
-			A8ZfAAPGTQADxdUAA67cAAMi8AACddUAAgA7U29sYXI6VXNlcnM6
-			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOnNob3cu
-			aHRtbC5lcmIAAA4AHAANAHMAaABvAHcALgBoAHQAbQBsAC4AZQBy
-			AGIADwAMAAUAUwBvAGwAYQByABIANVVzZXJzL3NhbS9hcHBzL3Zp
-			dGFlL2FwcC92aWV3cy9vcGVuaW5ncy9zaG93Lmh0bWwuZXJiAAAT
-			AAEvAAAVAAIACv//AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/show.html.erb</string>
-			<key>RelativePath</key>
-			<string>./app/views/openings/show.html.erb</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -830,29 +950,6 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAFsAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAADxnUMZGF0YWJhc2UueW1sAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
-			O8sVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
-			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsVj8sAAAABABQAA8Z1AAPF
-			1QADrtwAAyLwAAJ11QACAC5Tb2xhcjpVc2VyczpzYW06YXBwczp2
-			aXRhZTpjb25maWc6ZGF0YWJhc2UueW1sAA4AGgAMAGQAYQB0AGEA
-			YgBhAHMAZQAuAHkAbQBsAA8ADAAFAFMAbwBsAGEAcgASAChVc2Vy
-			cy9zYW0vYXBwcy92aXRhZS9jb25maWcvZGF0YWJhc2UueW1sABMA
-			AS8AABUAAgAK//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/config/database.yml</string>
-			<key>RelativePath</key>
-			<string>./config/database.yml</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
 			AAAAAAFiAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
 			eUHISCsAAAADxnUJZGVwbG95LnJiAAAAAAAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2H
@@ -868,29 +965,6 @@
 			<string>file://localhost/Users/sam/apps/vitae/config/deploy.rb</string>
 			<key>RelativePath</key>
 			<string>./config/deploy.rb</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAF0AAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAADxnUOZW52aXJvbm1lbnQucmIAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
-			PMsVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABmNv
-			bmZpZwAQAAgAAMl5ligAAAARAAgAAMsVj8sAAAABABQAA8Z1AAPF
-			1QADrtwAAyLwAAJ11QACADBTb2xhcjpVc2VyczpzYW06YXBwczp2
-			aXRhZTpjb25maWc6ZW52aXJvbm1lbnQucmIADgAeAA4AZQBuAHYA
-			aQByAG8AbgBtAGUAbgB0AC4AcgBiAA8ADAAFAFMAbwBsAGEAcgAS
-			ACpVc2Vycy9zYW0vYXBwcy92aXRhZS9jb25maWcvZW52aXJvbm1l
-			bnQucmIAEwABLwAAFQACAAr//wAA
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/config/environment.rb</string>
-			<key>RelativePath</key>
-			<string>./config/environment.rb</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -1036,31 +1110,6 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAGwAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAAhH64Kc2NyZWVuLmNzcwAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
-			c8sVO2sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACWJs
-			dWVwcmludAAAEAAIAADJeZYoAAAAEQAIAADLFY/LAAAAAQAgACEf
-			rgADxdoAA8XZAAPF1gADxdUAA67cAAMi8AACddUAAgBJU29sYXI6
-			VXNlcnM6c2FtOmFwcHM6dml0YWU6dmVuZG9yOmFzc2V0czpzdHls
-			ZXNoZWV0czpibHVlcHJpbnQ6c2NyZWVuLmNzcwAADgAWAAoAcwBj
-			AHIAZQBlAG4ALgBjAHMAcwAPAAwABQBTAG8AbABhAHIAEgBDVXNl
-			cnMvc2FtL2FwcHMvdml0YWUvdmVuZG9yL2Fzc2V0cy9zdHlsZXNo
-			ZWV0cy9ibHVlcHJpbnQvc2NyZWVuLmNzcwAAEwABLwAAFQACAAr/
-			/wAA
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/vendor/assets/stylesheets/blueprint/screen.css</string>
-			<key>RelativePath</key>
-			<string>./vendor/assets/stylesheets/blueprint/screen.css</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
 			AAAAAAGuAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
 			eUHISCsAAAADxmAUYXBwbGljYXRpb24uaHRtbC5lcmIAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3B
@@ -1078,30 +1127,6 @@
 			<string>file://localhost/Users/sam/apps/vitae/app/views/layouts/application.html.erb</string>
 			<key>RelativePath</key>
 			<string>./app/views/layouts/application.html.erb</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAGOAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAAAAAAAADJ
-			eUHISCsAAAAhxcYMbmV3Lmh0bWwuZXJiAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD52
-			ZssWF7sAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACG9w
-			ZW5pbmdzABAACAAAyXmWKAAAABEACAAAyxZsGwAAAAEAHAAhxcYA
-			A8ZfAAPGTQADxdUAA67cAAMi8AACddUAAgA6U29sYXI6VXNlcnM6
-			c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5pbmdzOm5ldy5o
-			dG1sLmVyYgAOABoADABuAGUAdwAuAGgAdABtAGwALgBlAHIAYgAP
-			AAwABQBTAG8AbABhAHIAEgA0VXNlcnMvc2FtL2FwcHMvdml0YWUv
-			YXBwL3ZpZXdzL29wZW5pbmdzL25ldy5odG1sLmVyYgATAAEvAAAV
-			AAIACv//AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/sam/apps/vitae/app/views/openings/new.html.erb</string>
-			<key>RelativePath</key>
-			<string>./app/views/openings/new.html.erb</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -1558,7 +1583,7 @@
 	<key>ToolbarVisible:sam</key>
 	<true/>
 	<key>ViewSplitterPosition:sam</key>
-	<real>0.24971097707748413</real>
+	<real>0.25317919254302979</real>
 	<key>WindowFrame:sam:displays([(0, 0), (1440, 900)]:[(1440, 132), (1024, 768)])</key>
 	<string>rect(44,66,764,931)</string>
 </dict>
