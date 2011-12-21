@@ -14,6 +14,7 @@ class OpeningsController < ApplicationController
   
   def show
     @opening = Opening.find(params[:id])
+    @title = @opening.position
     
     #if @opening?
       respond_to do |format|
