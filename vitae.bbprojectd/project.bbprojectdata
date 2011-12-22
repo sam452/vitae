@@ -26,40 +26,6 @@
 	</array>
 	<key>ProjectItems</key>
 	<dict>
-		<key>0B37F671-474C-409D-BAAA-9FCA97BA23BE</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGeAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAAhxcYQc2hvd19yZXBvcnQucnht
-				bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BN8sVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACG9wZW5pbmdzABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgA+U29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5p
-				bmdzOnNob3dfcmVwb3J0LnJ4bWwADgAiABAAcwBoAG8A
-				dwBfAHIAZQBwAG8AcgB0AC4AcgB4AG0AbAAPAAwABQBT
-				AG8AbABhAHIAEgA4VXNlcnMvc2FtL2FwcHMvdml0YWUv
-				YXBwL3ZpZXdzL29wZW5pbmdzL3Nob3dfcmVwb3J0LnJ4
-				bWwAEwABLwAAFQACAAr//wAA
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/openings/show_report.rxml</string>
-				<key>RelativePath</key>
-				<string>./app/views/openings/show_report.rxml</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>show_report.rxml</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
 		<key>14F131F6-DCAE-48C5-BAFC-7EFE430B341D</key>
 		<dict>
 			<key>ItemData</key>
@@ -120,74 +86,6 @@
 			</dict>
 			<key>ItemName</key>
 			<string>config.ru</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
-		<key>197F7169-1B4A-428A-9172-7B36116BDD1B</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGWAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAAhxcYOaW5kZXguaHRtbC5lcmIA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BNMsVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACG9wZW5pbmdzABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgA8U29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5p
-				bmdzOmluZGV4Lmh0bWwuZXJiAA4AHgAOAGkAbgBkAGUA
-				eAAuAGgAdABtAGwALgBlAHIAYgAPAAwABQBTAG8AbABh
-				AHIAEgA2VXNlcnMvc2FtL2FwcHMvdml0YWUvYXBwL3Zp
-				ZXdzL29wZW5pbmdzL2luZGV4Lmh0bWwuZXJiABMAAS8A
-				ABUAAgAK//8AAA==
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/openings/index.html.erb</string>
-				<key>RelativePath</key>
-				<string>./app/views/openings/index.html.erb</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>index.html.erb</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
-		<key>1BC6E418-F138-447C-9AAF-6DC810A554A8</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAAhxcYNc2hvdy5odG1sLmVyYgAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BNssVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACG9wZW5pbmdzABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgA7U29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5p
-				bmdzOnNob3cuaHRtbC5lcmIAAA4AHAANAHMAaABvAHcA
-				LgBoAHQAbQBsAC4AZQByAGIADwAMAAUAUwBvAGwAYQBy
-				ABIANVVzZXJzL3NhbS9hcHBzL3ZpdGFlL2FwcC92aWV3
-				cy9vcGVuaW5ncy9zaG93Lmh0bWwuZXJiAAATAAEvAAAV
-				AAIACv//AAA=
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/openings/show.html.erb</string>
-				<key>RelativePath</key>
-				<string>./app/views/openings/show.html.erb</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>show.html.erb</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
@@ -441,37 +339,36 @@
 			<key>ItemType</key>
 			<string>FolderReference</string>
 		</dict>
-		<key>71161207-2831-45DB-8305-4C01DFFEBA13</key>
+		<key>6143DC48-3A4B-4E12-9916-FD5090685A25</key>
 		<dict>
 			<key>ItemData</key>
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGUAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAAhxcYNZWRpdC5odG1sLmVyYgAA
+				AAAAAAGIAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAADJeUHISCsAAAA+8EcMbmV3Lmh0bWwuZXJiAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BM8sVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACG9wZW5pbmdzABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAAhxcYAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgA7U29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOm9wZW5p
-				bmdzOmVkaXQuaHRtbC5lcmIAAA4AHAANAGUAZABpAHQA
-				LgBoAHQAbQBsAC4AZQByAGIADwAMAAUAUwBvAGwAYQBy
-				ABIANVVzZXJzL3NhbS9hcHBzL3ZpdGFlL2FwcC92aWV3
-				cy9vcGVuaW5ncy9lZGl0Lmh0bWwuZXJiAAATAAEvAAAV
-				AAIACv//AAA=
+				AAAAAAAAAAAAAAAAAAAAAD7zMMsXWQkAAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAABXVzZXJzAAAQAAgA
+				AMl5ligAAAARAAgAAMsXrWkAAAABABwAPvBHAAPGXwAD
+				xk0AA8XVAAOu3AADIvAAAnXVAAIAN1NvbGFyOlVzZXJz
+				OnNhbTphcHBzOnZpdGFlOmFwcDp2aWV3czp1c2Vyczpu
+				ZXcuaHRtbC5lcmIAAA4AGgAMAG4AZQB3AC4AaAB0AG0A
+				bAAuAGUAcgBiAA8ADAAFAFMAbwBsAGEAcgASADFVc2Vy
+				cy9zYW0vYXBwcy92aXRhZS9hcHAvdmlld3MvdXNlcnMv
+				bmV3Lmh0bWwuZXJiAAATAAEvAAAVAAIACv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/openings/edit.html.erb</string>
+				<string>file://localhost/Users/sam/apps/vitae/app/views/users/new.html.erb</string>
 				<key>RelativePath</key>
-				<string>./app/views/openings/edit.html.erb</string>
+				<string>./app/views/users/new.html.erb</string>
 				<key>TypeID</key>
 				<string>_CFileLocator</string>
 				<key>Version</key>
 				<integer>1</integer>
 			</dict>
 			<key>ItemName</key>
-			<string>edit.html.erb</string>
+			<string>new.html.erb</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
@@ -536,41 +433,6 @@
 			<string>app</string>
 			<key>ItemType</key>
 			<string>FolderReference</string>
-		</dict>
-		<key>88541F88-73C3-4488-8B09-A6F47001E872</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGuAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAADxmAUYXBwbGljYXRpb24uaHRt
-				bC5lcmIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BMssVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAAB2xheW91dHMAABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAADxmAAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgBBU29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOmxheW91
-				dHM6YXBwbGljYXRpb24uaHRtbC5lcmIAAA4AKgAUAGEA
-				cABwAGwAaQBjAGEAdABpAG8AbgAuAGgAdABtAGwALgBl
-				AHIAYgAPAAwABQBTAG8AbABhAHIAEgA7VXNlcnMvc2Ft
-				L2FwcHMvdml0YWUvYXBwL3ZpZXdzL2xheW91dHMvYXBw
-				bGljYXRpb24uaHRtbC5lcmIAABMAAS8AABUAAgAK//8A
-				AA==
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/layouts/application.html.erb</string>
-				<key>RelativePath</key>
-				<string>./app/views/layouts/application.html.erb</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>application.html.erb</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
 		</dict>
 		<key>A506BB3B-DDC3-4C91-A289-630AD8704449</key>
 		<dict>
@@ -758,41 +620,6 @@
 			<string>lib</string>
 			<key>ItemType</key>
 			<string>FolderReference</string>
-		</dict>
-		<key>DA9F85A3-1200-4159-8D9B-174ECAC97C64</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGwAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAADxmAVX3N0eWxlc2hlZXRzLmh0
-				bWwuZXJiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD3BMcsVO2sAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAAB2xheW91dHMAABAA
-				CAAAyXmWKAAAABEACAAAyxWPywAAAAEAHAADxmAAA8Zf
-				AAPGTQADxdUAA67cAAMi8AACddUAAgBCU29sYXI6VXNl
-				cnM6c2FtOmFwcHM6dml0YWU6YXBwOnZpZXdzOmxheW91
-				dHM6X3N0eWxlc2hlZXRzLmh0bWwuZXJiAA4ALAAVAF8A
-				cwB0AHkAbABlAHMAaABlAGUAdABzAC4AaAB0AG0AbAAu
-				AGUAcgBiAA8ADAAFAFMAbwBsAGEAcgASADxVc2Vycy9z
-				YW0vYXBwcy92aXRhZS9hcHAvdmlld3MvbGF5b3V0cy9f
-				c3R5bGVzaGVldHMuaHRtbC5lcmIAEwABLwAAFQACAAr/
-				/wAA
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/layouts/_stylesheets.html.erb</string>
-				<key>RelativePath</key>
-				<string>./app/views/layouts/_stylesheets.html.erb</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>_stylesheets.html.erb</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
 		</dict>
 		<key>DFF505EB-9484-4813-8928-9A0004733D76</key>
 		<dict>

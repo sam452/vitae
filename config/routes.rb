@@ -1,5 +1,7 @@
 Vitae::Application.routes.draw do
 
+  get "users/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 # map.connect '/:alpha', :controllers => "position", :action => "show"
@@ -10,6 +12,7 @@ root :to => 'openings#index'
 match '/openings/admin', :to => 'openings#admin'
 match '/openings/show_report', :to => 'openings#show_report'
 resources :openings
+resources :users
 #resources :openings, except: [:index, :show, :edit]
 #match '/:id', :to => 'openings#show', :as => :opening
 #match '/openings/edit/:pid', :to => 'openings#edit', :as => :edit_opening

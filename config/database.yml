@@ -23,7 +23,7 @@ test:
 production:
   adapter: postgresql
   database: vitae_production
-  username: rails
+  username: wanzie
   password:
   pool: 5
   timeout: 5000
