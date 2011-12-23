@@ -339,39 +339,6 @@
 			<key>ItemType</key>
 			<string>FolderReference</string>
 		</dict>
-		<key>6143DC48-3A4B-4E12-9916-FD5090685A25</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGIAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAADJeUHISCsAAAA+8EcMbmV3Lmh0bWwuZXJiAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAD7zMMsXWQkAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAABXVzZXJzAAAQAAgA
-				AMl5ligAAAARAAgAAMsXrWkAAAABABwAPvBHAAPGXwAD
-				xk0AA8XVAAOu3AADIvAAAnXVAAIAN1NvbGFyOlVzZXJz
-				OnNhbTphcHBzOnZpdGFlOmFwcDp2aWV3czp1c2Vyczpu
-				ZXcuaHRtbC5lcmIAAA4AGgAMAG4AZQB3AC4AaAB0AG0A
-				bAAuAGUAcgBiAA8ADAAFAFMAbwBsAGEAcgASADFVc2Vy
-				cy9zYW0vYXBwcy92aXRhZS9hcHAvdmlld3MvdXNlcnMv
-				bmV3Lmh0bWwuZXJiAAATAAEvAAAVAAIACv//AAA=
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/sam/apps/vitae/app/views/users/new.html.erb</string>
-				<key>RelativePath</key>
-				<string>./app/views/users/new.html.erb</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>new.html.erb</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
 		<key>77104F97-8DE4-49D3-9BE4-81CF39F51F36</key>
 		<dict>
 			<key>ItemData</key>
@@ -527,6 +494,39 @@
 			<string>tmp</string>
 			<key>ItemType</key>
 			<string>FolderReference</string>
+		</dict>
+		<key>C7EA5B9C-1025-454B-9A85-AF344135B824</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAGIAAIAAAVTb2xhcgAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAADJeUHISCsAAAA+8EcMbmV3Lmh0bWwuZXJiAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAD7zMMsXWQkAAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAABXVzZXJzAAAQAAgA
+				AMl5ligAAAARAAgAAMsXrWkAAAABABwAPvBHAAPGXwAD
+				xk0AA8XVAAOu3AADIvAAAnXVAAIAN1NvbGFyOlVzZXJz
+				OnNhbTphcHBzOnZpdGFlOmFwcDp2aWV3czp1c2Vyczpu
+				ZXcuaHRtbC5lcmIAAA4AGgAMAG4AZQB3AC4AaAB0AG0A
+				bAAuAGUAcgBiAA8ADAAFAFMAbwBsAGEAcgASADFVc2Vy
+				cy9zYW0vYXBwcy92aXRhZS9hcHAvdmlld3MvdXNlcnMv
+				bmV3Lmh0bWwuZXJiAAATAAEvAAAVAAIACv//AAA=
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/sam/apps/vitae/app/views/users/new.html.erb</string>
+				<key>RelativePath</key>
+				<string>./app/views/users/new.html.erb</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>new.html.erb</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
 		</dict>
 		<key>CDD15745-3D5C-4EAC-B84F-E2DD47CC9BFB</key>
 		<dict>

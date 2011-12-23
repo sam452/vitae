@@ -1,2 +1,36 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<div class="span-11 last" id="background"> 
+
+  <% if @user.errors.any? %>
+    <div class="alert-message block-message error">
+      <p><strong>You got an error!</strong></p>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>    
+    </div>
+  <% end %>
+  
+<%= form_for (@user)  do |f| %>
+  <div class="field">
+    <%= f.label :name, "Name." %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email, "Email" %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Password" %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+
+ <div class="actions">
+    <%= f.submit "Sign up" %>
+  </div>
+<% end %>
+</div>

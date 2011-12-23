@@ -13,6 +13,9 @@
   </header>
 </div>  
 <section>
+    <%= flash.each do |key, value| %>
+      <div class="flash <%= key %>"<%= value %></div>
+    <% end %>
     <%= yield %>
   <%= debug(params) if Rails.env.development? %>
   </section>
