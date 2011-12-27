@@ -1,5 +1,7 @@
 Vitae::Application.routes.draw do
 
+  get "sessions/new"
+
   get "users/new"
 
   # The priority is based upon order of creation:
@@ -13,6 +15,10 @@ match '/openings/admin', :to => 'openings#admin'
 match '/openings/show_report', :to => 'openings#show_report'
 resources :openings
 resources :users
+resources :sessions, :only => [:new, :create, :destroy]
+  match '/signup',  :to => 'users#new'
+  match '/signin',  :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
 #resources :openings, except: [:index, :show, :edit]
 #match '/:id', :to => 'openings#show', :as => :opening
 #match '/openings/edit/:pid', :to => 'openings#edit', :as => :edit_opening
