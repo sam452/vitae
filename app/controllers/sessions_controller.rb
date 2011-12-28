@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
       render 'new'
     else
      sign_in user
-     redirect_to user # sign the iuser in and redirect to the user's show page.
+     redirect_back_or user
     end
   end
   
