@@ -1,3 +1,9 @@
+  <div id="header" class="span-23 last">
+  <%= render 'layouts/header' %>
+    <nav class="round">
+    
+    </nav>
+  </header>
 <div class="span-11 last" id="background"> 
 
   <% if @user.errors.any? %>
@@ -12,25 +18,8 @@
   <% end %>
   
 <%= form_for (@user)  do |f| %>
-  <%= render 'shared/error_messages', :object => f.object %>
-  <div class="field">
-    <%= f.label :name, "Name." %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :email, "Email" %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :password, "Password" %><br />
-    <%= f.password_field :password %>
-  </div>
-  <div class="field">
-    <%= f.label :password_confirmation, "Confirmation" %><br />
-    <%= f.password_field :password_confirmation %>
-  </div>
-
- <div class="actions">
+  <%= render 'fields', :f => f %>
+  <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
 <% end %>

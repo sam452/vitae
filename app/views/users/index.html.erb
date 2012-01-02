@@ -1,0 +1,16 @@
+  <div id="header" class="span-23 last">
+  <%= render 'layouts/header' %>
+    <nav class="round">
+    
+    </nav>
+  </header>
+
+<h1>All users</h1>
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.name, user %>
+    </li>
+  <% end %>
+</ul>

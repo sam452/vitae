@@ -6,7 +6,8 @@ module SessionsHelper
   end
   
   def current_user=(user)
-    @current_user = user
+    #user == current_user
+    @current_user = user #this is suspect
   end
   
   def current_user
@@ -22,11 +23,21 @@ module SessionsHelper
     self.current_user = nil
   end
   
+  def deny_access
+    redirect_to signin_path, :notice => "Please sign in to access this page."
+  end
+  
+  def current_user?(user)
+		user == current_user
+  end
+	
   private
   
-    def user_from_remember_token
-      User.authenticate_with_salt(*remember_token)
-    end
+    # Authenticates user using remember token rather than email and password
+	# using authenticate_with_salt.
+	def user_from_remember_token
+		User.authenticate_with_salt(*remember_token)
+	end
     
     def remember_token
       cookies.signed[:remember_token] || [nil, nil]
